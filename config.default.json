@@ -8,8 +8,8 @@
 	"reconnectionAttempts": 10,
 	"reconnectionDelay": 5000,
 	"picfinder": {
-		"debug": false,
-		"admin": -1,
+		"debug": true,
+		"admin": 714562021,
 		"autoAddFriend": false,
 		"addFriendAnswers": [],
 		"autoAddGroup": false,
@@ -24,14 +24,14 @@
 			"commonProb": 0.2
 		},
 		"setu": {
-			"enable": false,
+			"enable": true,
 			"antiShielding": false,
 			"allowPM": true,
 			"pximgServerPort": "60233",
 			"usePximgAddr": "",
 			"pximgProxy": "",
 			"size1200": false,
-			"deleteTime": 60,
+			"deleteTime": 0,
 			"cd": 600,
 			"limit": 30,
 			"whiteGroup": [],
@@ -41,10 +41,10 @@
 			"r18OnlyInWhite": true
 		},
 		"regs": {
-			"searchModeOn": "^竹竹搜[图圖]$",
-			"searchModeOff": "^[谢謝]+竹竹$",
+			"searchModeOn": "^橙子搜[图圖]$",
+			"searchModeOff": "^[谢謝]+橙子$",
 			"sign": "我(.*)签到",
-			"setu": "^竹竹.*[来來发發给給][张張个個幅点點份]?(?<r18>[Rr]18的?)?(?<keyword>.*?)?的?[色瑟][图圖]|^--setu$"
+			"setu": "^橙子.*[来來发發给給][张張个個幅点點份]?(?<r18>[Rr]18的?)?(?<keyword>.*?)?的?[色瑟][图圖]|^--setu$"
 		},
 		"replys": {
 			"default": "必须要发送图片我才能帮你找噢_(:3」」\n支持批量！",
@@ -53,11 +53,11 @@
 			"failed": "搜索失败惹 QAQ\n有可能是服务器网络爆炸，请重试一次",
 			"sign": "签到成功，送您10个赞！",
 			"signed": "您今天已经签到过啦_(:3」∠)_",
-			"searchModeOn": "了解～请发送图片吧！支持批量噢！\n如想退出搜索模式请发送“谢谢竹竹”",
-			"searchModeAlreadyOn": "您已经在搜图模式下啦！\n如想退出搜索模式请发送“谢谢竹竹”",
+			"searchModeOn": "了解～请发送图片吧！支持批量噢！\n如想退出搜索模式请发送“谢谢橙子”",
+			"searchModeAlreadyOn": "您已经在搜图模式下啦！\n如想退出搜索模式请发送“谢谢橙子”",
 			"searchModeOff": "不用谢～",
 			"searchModeAlreadyOff": "にゃ～",
-			"searchModeTimeout": "由于超时，已为您自动退出搜图模式，以后要记得说“谢谢竹竹”来退出搜图模式噢",
+			"searchModeTimeout": "由于超时，已为您自动退出搜图模式，以后要记得说“谢谢橙子”来退出搜图模式噢",
 			"setuLimit": "乖，要懂得节制噢 →_→",
 			"setuError": "瑟图服务器爆炸惹_(:3」∠)_",
 			"setuReject": "很抱歉，该功能暂不开放_(:3」」"
